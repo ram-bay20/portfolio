@@ -39,11 +39,39 @@ function blueTheme(){
      changer.style.setProperty('--primary-color', '#586cc2');
      changer.style.setProperty('--secondary-color', '#133a75');
      changer.style.setProperty('--border-color', '#cf98c3');
-     changer.style.setProperty('--primary-text', '#222');
+     changer.style.setProperty('--primary-text', '#fff');
      changer.style.setProperty('--secondary-text', '#eee');
      changer.style.setProperty('--theme-border', '#f3f');
      changer.style.setProperty('--preview-shadow', '#aa33ee');
      changer.style.setProperty('--preview-background', '#aa33ee99');
-     changer.style.setProperty('--btn-color', '#4673f3');
-     changer.style.setProperty('--link-color', '#cab');
+     changer.style.setProperty('--btn-color', '#0ac');
+     changer.style.setProperty('--link-color', '#3fd');
+}
+
+green.addEventListener('click', greenTheme)
+function greenTheme(){
+     changer.style.setProperty('--primary-color', '#4f6');
+     changer.style.setProperty('--secondary-color', '#7e7');
+     changer.style.setProperty('--border-color', '#756');
+     changer.style.setProperty('--primary-text', '#fff');
+     changer.style.setProperty('--secondary-text', '#222');
+     changer.style.setProperty('--theme-border', '#000');
+     changer.style.setProperty('--preview-shadow', '#ccc');
+     changer.style.setProperty('--preview-background', '#aaa9');
+     changer.style.setProperty('--btn-color', '#e43');
+     changer.style.setProperty('--link-color', '#444');
+}
+
+reddish.addEventListener('click', redTheme)
+function redTheme(){
+     changer.style.setProperty('--primary-color', '#Fd4343');
+     changer.style.setProperty('--secondary-color', '#F55f01');
+     changer.style.setProperty('--border-color', '#345');
+     changer.style.setProperty('--primary-text', '#fff');
+     changer.style.setProperty('--secondary-text', '#222');
+     changer.style.setProperty('--theme-border', '#000');
+     changer.style.setProperty('--preview-shadow', '#50ecf7');
+     changer.style.setProperty('--preview-background', '#50ecf799');
+     changer.style.setProperty('--btn-color', '#2bec2b');
+     changer.style.setProperty('--link-color', '#392bec');
 }

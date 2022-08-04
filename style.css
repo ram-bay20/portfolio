@@ -284,7 +284,7 @@ h6 {
      display: flex;
      justify-content: space-evenly;
      background-color: var(--preview-shadow);
-     box-shadow: 4px 3px 3px #fc4376;
+     box-shadow: 4px 3px 3px #f9fc43;
 }
 
 .social-media{
@@ -334,6 +334,7 @@ h6 {
 
 .post-review h5{
      margin: 5px auto;
+     color: #000;
 }
 
 #form-container{
